@@ -1,3 +1,3 @@
 # 120-Work
 
-This is my repo for coursework related to Creative Coding 1. 
+This is my repo for Creative Coding 1 coursework.
