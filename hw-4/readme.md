@@ -7,7 +7,7 @@ I read my way through the information and browsed the extra materials provided. 
 
 The image I attempted to recreate:
 
-![Venom and Eddie Brock by Alyruko](Venom-and-Eddie.jpg)
+![Venom and Eddie by Alyruko](Venom-and-Eddie.jpg)
 
 ## Problems and issues
 I had very few issues this time. It was mainly a struggle of deciding where to start and then figuring out where the next pieces should go after creating the first one. My biggest issue was figuring out how to create Venom's mouth, mainly figuring out which coordinates gave me the mouth shape I wanted to create.
