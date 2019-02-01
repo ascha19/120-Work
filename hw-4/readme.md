@@ -6,6 +6,7 @@ Avery Schakosky
 I read my way through the information and browsed the extra materials provided. The radians video is no longer available, so I had to make do with the othr knowledge given to me. Instead of making a self-portrait, I made a monster-portrait. I decided to recreate a picture of the Marvel antihero Venom that I found; though he's technically not a monster, he could be considered as one.
 
 The image I attempted to recreate:
+
 ![Venom and Eddie Brock by Alyruko](Venom-and-Eddie.jpg)
 
 ## Problems and issues
