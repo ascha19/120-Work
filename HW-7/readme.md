@@ -1,6 +1,6 @@
 Your Name, Your Section Number
 
-[Live Sketch Link]https://aschave19.github.io/120-Work/HW-7/
+[Live Sketch Link](https://aschave19.github.io/120-Work/HW-7/)
 
 
 # HW 7 | Describe then Alter the Bouncing Ball
