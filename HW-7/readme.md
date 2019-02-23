@@ -1,6 +1,6 @@
 Your Name, Your Section Number
 
-[Live Sketch Link](Your Live Link)
+[Live Sketch Link]https://aschave19.github.io/120-Work/HW-7/
 
 
 # HW 7 | Describe then Alter the Bouncing Ball
@@ -20,5 +20,5 @@ Line 19 starts the draw sketch, followed by lines 21 through 30 determining the 
 ## How did you alter the sketch?
 
 <!--
-I simply changed the ball's movement pattern by altering the variables on lines 21, 22, 26, 29, 37, and 38. I also changed the x and y variables, and the ball's size.Finally the changed the background to a light gray and changed the ball's color to black because the black line was more appealing to me and it was pleasant to watch the black eventually totally cover the gray canvas. 
+I simply changed the ball's movement pattern by altering the variables on lines 21, 22, 26, 29, 37, and 38. I also changed the x and y variables, and the ball's size.Finally the changed the background to a light gray and changed the ball's color to black because the black line was more appealing to me and it was pleasant to watch the black eventually totally cover the gray canvas.
 -->
