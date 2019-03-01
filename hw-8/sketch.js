@@ -5,7 +5,7 @@ function setup(){
 
   //Creating canvas and altering the frame rate so the flashing colors aren't so aggressively flashing
   createCanvas(windowWidth, 300);
-  frameRate(15);
+  frameRate(5);
 }
 
 function draw(){
@@ -24,5 +24,14 @@ function draw(){
 //Drawing the actual circle
       ellipse(x + y, y, 16 - y/10, 16 - y/10);
     }
+  }
+
+//Made strokeWeight larger so lines don't look as small
+  strokeWeight(7);
+
+  for (let i = 5; i <= windowWidth; i += 20) {
+    stroke(255, random(255), 0);
+    line(i, 0, 2*i, 150);
+    line(2*i, 150, 1.5*i, 300);
   }
 }
