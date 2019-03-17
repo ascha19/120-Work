@@ -1,5 +1,5 @@
-Avery Schakosky
+# Empty p5 sketch.
 
-# This Week's Summary
+Please replace contents of this file with appropriate readme information after finishing your p5 sketch.
 
-## The Process
+Current p5 version -> 0.7.1
