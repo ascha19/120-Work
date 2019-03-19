@@ -3,24 +3,27 @@
 //Array and functions time
 let dumbArray = ["Bone", "Apple", "Teeth"];
 
-let background_color = (196, 217, 224);
+let background_color = ('rgb(201, 219, 227)');
 
-function bone() {
+function bone(); {
 
 }
 
 //Basic setup stuff; canvas, framerate, background color, etc
-function setup() {
+function setup(); {
   createCanvas(800, 400);
   frameRate(4);
 
-  let index = 0;
+  let idx = 0;
 }
 
 //Basic setup stuff; background, text size, etc
-function draw();
+function draw(); {
   background(background_color);
   textSize(27);
 
   //Writing the text
-  text("When the meal's real good:" + index, 200, 200);
+  text("When the meal's real good:" + dumbArray[idx], 200, 200);
+
+  idx = (idx + 1) % dumbArray.length;
+}
