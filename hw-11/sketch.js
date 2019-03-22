@@ -1,7 +1,7 @@
 //Create array
 let holey = [];
 
-let holes;
+//let holes;
 
 function setup(){
 
@@ -13,7 +13,7 @@ function setup(){
 
   for (let i = 0; i < 75; i++) {
 
-  holey.push(new WriggleHoles(size, 'yellow'));
+  holey.push(new WriggleHoles());
 
 }
 
@@ -27,8 +27,7 @@ function draw() {
 //Allowing holey.picture and holey.move to be called
 for (let i = 0; i < holey.length; i++) {
 
-  holey[i].picture();
-  holey[i].move();
+  holey[i].frame();
 
 }
 
@@ -49,13 +48,20 @@ class WriggleHoles {
 
   }
 
+  frame() {
+
+    this.picture();
+    this.move();
+
+  }
+
 //Picture method to draw the thing
   picture() {
 
 //Give it color and draw it
   noStroke();
   fill(this.color);
-  ellipse(this.posX, this.posY, this.diameter);
+  ellipse(this.posX, this.posY, this.diameter, this.diameter);
 
   }
 
