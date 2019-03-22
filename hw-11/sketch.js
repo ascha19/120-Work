@@ -4,21 +4,22 @@ let holey = [];
 //let holes;
 
 function setup(){
-
 //Create canvas
   createCanvas(windowWidth, 800);
 
 //THIS IS WHERE I'M STUCK -------
 
-//Execute WriggleHoles
+//Execute WriggleHoles attempt one
   //holes = new WriggleHoles(size, 'yellow');
 
+//Attempt two
   //for (let i = 0; i < 75; i++) {
   //holey.push(new WriggleHoles(size, 'yellow'));
 //}
 
 }
 
+//Attempt 3
 function mousePressed() {
 
   let newHole = new WriggleHoles(mouseX, mouseY);
