@@ -8,16 +8,25 @@ function setup(){
 //Create canvas
   createCanvas(windowWidth, 800);
 
+//THIS IS WHERE I'M STUCK -------
+
 //Execute WriggleHoles
   //holes = new WriggleHoles(size, 'yellow');
 
-  for (let i = 0; i < 75; i++) {
+  //for (let i = 0; i < 75; i++) {
+  //holey.push(new WriggleHoles(size, 'yellow'));
+//}
 
-  holey.push(new WriggleHoles(size, 'yellow'));
+}
+
+function mousePressed() {
+
+  let newHole = new WriggleHoles(mouseX, mouseY);
+  holey.push(newHole);
 
 }
 
-}
+// -----------
 
 function draw() {
 
