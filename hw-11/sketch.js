@@ -13,7 +13,7 @@ function setup(){
 
   for (let i = 0; i < 75; i++) {
 
-  holey.push(new WriggleHoles());
+  holey.push(new WriggleHoles(size, 'yellow'));
 
 }
 
