@@ -82,6 +82,7 @@ class Bubbles {
     }
   }
 
+//Bubbles recognize each other, color change
   bubbleCheck(otherBubble, myId) {
     for (let n = 0; n < otherBubble.length; n++) {
       if (n != myId) {
