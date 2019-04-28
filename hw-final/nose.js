@@ -12,9 +12,9 @@ function Nose() {
   this.show = function() {
 //Drawing of the nose. It's a clown nose, so it obviously has to be round and red.
     strokeWeight(5);
-    stroke('rgb(97, 0, 0)');
-    fill('rgb(215, 0, 0)');
-    ellipse(this.x, this.y, 75, 75);
+    stroke('rgb(193, 23, 23)');
+    fill('rgb(255, 0, 0)');
+    ellipse(this.x, this.y, 65, 65);
   }
 
 //Function causing nose to move upward
